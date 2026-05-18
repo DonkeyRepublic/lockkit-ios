@@ -1,5 +1,10 @@
 # Changelog
 
+## v1.4.0 - 2026-05-18
+
+* Added support for Linka locks
+* Internal dependency updates
+
 ## v1.1.1 - 2022-07-25
 
 * Expose methods for setting `LogLevel` and `ServerEnvironment` individually

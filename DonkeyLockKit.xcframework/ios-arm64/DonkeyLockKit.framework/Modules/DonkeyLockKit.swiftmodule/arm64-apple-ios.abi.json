@@ -1,0 +1,3746 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "DonkeyLockKit",
+    "printedName": "DonkeyLockKit",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "DonkeyLockKitCore",
+        "printedName": "DonkeyLockKitCore",
+        "declKind": "Import",
+        "moduleName": "DonkeyLockKit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DonkeyLockKit"
+      },
+      {
+        "kind": "Import",
+        "name": "DonkeyLockKitCore",
+        "printedName": "DonkeyLockKitCore",
+        "declKind": "Import",
+        "moduleName": "DonkeyLockKit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DonkeyLockKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DonkeyLockKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ComposableArchitecture",
+        "printedName": "ComposableArchitecture",
+        "declKind": "Import",
+        "moduleName": "DonkeyLockKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ComposableArchitecture",
+        "printedName": "ComposableArchitecture",
+        "declKind": "Import",
+        "moduleName": "DonkeyLockKit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "DonkeyLockKitCore",
+        "printedName": "DonkeyLockKitCore",
+        "declKind": "Import",
+        "moduleName": "DonkeyLockKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DonkeyLockKit"
+      },
+      {
+        "kind": "Import",
+        "name": "os",
+        "printedName": "os",
+        "declKind": "Import",
+        "moduleName": "DonkeyLockKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DonkeyLockKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "os",
+        "printedName": "os",
+        "declKind": "Import",
+        "moduleName": "DonkeyLockKit"
+      },
+      {
+        "kind": "Import",
+        "name": "ComposableArchitecture",
+        "printedName": "ComposableArchitecture",
+        "declKind": "Import",
+        "moduleName": "DonkeyLockKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DonkeyLockKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "DonkeyLockKit"
+      },
+      {
+        "kind": "Import",
+        "name": "DonkeyLockKitCore",
+        "printedName": "DonkeyLockKitCore",
+        "declKind": "Import",
+        "moduleName": "DonkeyLockKit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DonkeyLockKit"
+      },
+      {
+        "kind": "Import",
+        "name": "ComposableArchitecture",
+        "printedName": "ComposableArchitecture",
+        "declKind": "Import",
+        "moduleName": "DonkeyLockKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "DonkeyLockKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DonkeyLockKit"
+      },
+      {
+        "kind": "Import",
+        "name": "ComposableArchitecture",
+        "printedName": "ComposableArchitecture",
+        "declKind": "Import",
+        "moduleName": "DonkeyLockKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LockKit",
+        "printedName": "LockKit",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LockKit",
+                "printedName": "DonkeyLockKit.LockKit",
+                "usr": "s:13DonkeyLockKit0bC0C"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13DonkeyLockKit0bC0C6sharedACvpZ",
+            "mangledName": "$s13DonkeyLockKit0bC0C6sharedACvpZ",
+            "moduleName": "DonkeyLockKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LockKit",
+                    "printedName": "DonkeyLockKit.LockKit",
+                    "usr": "s:13DonkeyLockKit0bC0C"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13DonkeyLockKit0bC0C6sharedACvgZ",
+                "mangledName": "$s13DonkeyLockKit0bC0C6sharedACvgZ",
+                "moduleName": "DonkeyLockKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LockKitConfiguration",
+                "printedName": "DonkeyLockKit.LockKitConfiguration",
+                "usr": "s:13DonkeyLockKit0bC13ConfigurationV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13DonkeyLockKit0bC0C9configureyyAA0bC13ConfigurationVF",
+            "mangledName": "$s13DonkeyLockKit0bC0C9configureyyAA0bC13ConfigurationVF",
+            "moduleName": "DonkeyLockKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "set",
+            "printedName": "set(logLevel:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LogLevel",
+                "printedName": "DonkeyLockKit.LogLevel",
+                "usr": "s:13DonkeyLockKit8LogLevelO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13DonkeyLockKit0bC0C3set8logLevelyAA03LogF0O_tF",
+            "mangledName": "$s13DonkeyLockKit0bC0C3set8logLevelyAA03LogF0O_tF",
+            "moduleName": "DonkeyLockKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "set",
+            "printedName": "set(serverEnvironment:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ServerEnvironment",
+                "printedName": "DonkeyLockKit.ServerEnvironment",
+                "usr": "s:13DonkeyLockKit17ServerEnvironmentO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13DonkeyLockKit0bC0C3set17serverEnvironmentyAA06ServerF0O_tF",
+            "mangledName": "$s13DonkeyLockKit0bC0C3set17serverEnvironmentyAA06ServerF0O_tF",
+            "moduleName": "DonkeyLockKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "initializeSDK",
+            "printedName": "initializeSDK(sdkToken:onResult:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<(), DonkeyLockKit.InitializeSDKError>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<(), DonkeyLockKit.InitializeSDKError>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InitializeSDKError",
+                        "printedName": "DonkeyLockKit.InitializeSDKError",
+                        "usr": "s:13DonkeyLockKit18InitializeSDKErrorO"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13DonkeyLockKit0bC0C13initializeSDK8sdkToken8onResultySS_ys0I0OyytAA18InitializeSDKErrorOGctF",
+            "mangledName": "$s13DonkeyLockKit0bC0C13initializeSDK8sdkToken8onResultySS_ys0I0OyytAA18InitializeSDKErrorOGctF",
+            "moduleName": "DonkeyLockKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "initializeLock",
+            "printedName": "initializeLock(lockName:eKey:passkey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Result",
+                "printedName": "Swift.Result<(), DonkeyLockKit.InitializeLockError>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InitializeLockError",
+                    "printedName": "DonkeyLockKit.InitializeLockError",
+                    "usr": "s:13DonkeyLockKit010InitializeB5ErrorO"
+                  }
+                ],
+                "usr": "s:s6ResultO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13DonkeyLockKit0bC0C010initializeB08lockName4eKey7passkeys6ResultOyytAA010InitializeB5ErrorOGSS_S2StF",
+            "mangledName": "$s13DonkeyLockKit0bC0C010initializeB08lockName4eKey7passkeys6ResultOyytAA010InitializeB5ErrorOGSS_S2StF",
+            "moduleName": "DonkeyLockKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unlock",
+            "printedName": "unlock(lockName:onStatusChanged:onResult:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DonkeyLockKit.StatusUpdate) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StatusUpdate",
+                    "printedName": "DonkeyLockKit.StatusUpdate",
+                    "usr": "s:13DonkeyLockKit12StatusUpdateO"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<(), DonkeyLockKit.LockError>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<(), DonkeyLockKit.LockError>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LockError",
+                        "printedName": "DonkeyLockKit.LockError",
+                        "usr": "s:13DonkeyLockKit0B5ErrorO"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13DonkeyLockKit0bC0C6unlock8lockName15onStatusChanged0G6ResultySS_yAA0H6UpdateOcys0J0OyytAA0B5ErrorOGctF",
+            "mangledName": "$s13DonkeyLockKit0bC0C6unlock8lockName15onStatusChanged0G6ResultySS_yAA0H6UpdateOcys0J0OyytAA0B5ErrorOGctF",
+            "moduleName": "DonkeyLockKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "lock",
+            "printedName": "lock(lockName:onStatusChanged:onResult:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DonkeyLockKit.StatusUpdate) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StatusUpdate",
+                    "printedName": "DonkeyLockKit.StatusUpdate",
+                    "usr": "s:13DonkeyLockKit12StatusUpdateO"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<(), DonkeyLockKit.LockError>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<(), DonkeyLockKit.LockError>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LockError",
+                        "printedName": "DonkeyLockKit.LockError",
+                        "usr": "s:13DonkeyLockKit0B5ErrorO"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13DonkeyLockKit0bC0C4lock0D4Name15onStatusChanged0F6ResultySS_yAA0G6UpdateOcys0I0OyytAA0B5ErrorOGctF",
+            "mangledName": "$s13DonkeyLockKit0bC0C4lock0D4Name15onStatusChanged0F6ResultySS_yAA0G6UpdateOcys0I0OyytAA0B5ErrorOGctF",
+            "moduleName": "DonkeyLockKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "prepareEndRental",
+            "printedName": "prepareEndRental(lockName:onStatusChanged:onResult:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DonkeyLockKit.StatusUpdate) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StatusUpdate",
+                    "printedName": "DonkeyLockKit.StatusUpdate",
+                    "usr": "s:13DonkeyLockKit12StatusUpdateO"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<(), DonkeyLockKit.LockError>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<(), DonkeyLockKit.LockError>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LockError",
+                        "printedName": "DonkeyLockKit.LockError",
+                        "usr": "s:13DonkeyLockKit0B5ErrorO"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13DonkeyLockKit0bC0C16prepareEndRental8lockName15onStatusChanged0I6ResultySS_yAA0J6UpdateOcys0L0OyytAA0B5ErrorOGctF",
+            "mangledName": "$s13DonkeyLockKit0bC0C16prepareEndRental8lockName15onStatusChanged0I6ResultySS_yAA0J6UpdateOcys0L0OyytAA0B5ErrorOGctF",
+            "moduleName": "DonkeyLockKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "finalizeLock",
+            "printedName": "finalizeLock(lockName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Result",
+                "printedName": "Swift.Result<(), DonkeyLockKit.FinalizeLockError>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FinalizeLockError",
+                    "printedName": "DonkeyLockKit.FinalizeLockError",
+                    "usr": "s:13DonkeyLockKit08FinalizeB5ErrorO"
+                  }
+                ],
+                "usr": "s:s6ResultO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13DonkeyLockKit0bC0C08finalizeB08lockNames6ResultOyytAA08FinalizeB5ErrorOGSS_tF",
+            "mangledName": "$s13DonkeyLockKit0bC0C08finalizeB08lockNames6ResultOyytAA08FinalizeB5ErrorOGSS_tF",
+            "moduleName": "DonkeyLockKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:13DonkeyLockKit0bC0C",
+        "mangledName": "$s13DonkeyLockKit0bC0C",
+        "moduleName": "DonkeyLockKit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "StatusUpdate",
+        "printedName": "StatusUpdate",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "searching",
+            "printedName": "searching",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DonkeyLockKit.StatusUpdate.Type) -> DonkeyLockKit.StatusUpdate",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StatusUpdate",
+                    "printedName": "DonkeyLockKit.StatusUpdate",
+                    "usr": "s:13DonkeyLockKit12StatusUpdateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DonkeyLockKit.StatusUpdate.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StatusUpdate",
+                        "printedName": "DonkeyLockKit.StatusUpdate",
+                        "usr": "s:13DonkeyLockKit12StatusUpdateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13DonkeyLockKit12StatusUpdateO9searchingyA2CmF",
+            "mangledName": "$s13DonkeyLockKit12StatusUpdateO9searchingyA2CmF",
+            "moduleName": "DonkeyLockKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "weakSignal",
+            "printedName": "weakSignal",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DonkeyLockKit.StatusUpdate.Type) -> (Swift.Int) -> DonkeyLockKit.StatusUpdate",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int) -> DonkeyLockKit.StatusUpdate",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StatusUpdate",
+                        "printedName": "DonkeyLockKit.StatusUpdate",
+                        "usr": "s:13DonkeyLockKit12StatusUpdateO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(rssi: Swift.Int)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DonkeyLockKit.StatusUpdate.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StatusUpdate",
+                        "printedName": "DonkeyLockKit.StatusUpdate",
+                        "usr": "s:13DonkeyLockKit12StatusUpdateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13DonkeyLockKit12StatusUpdateO10weakSignalyACSi_tcACmF",
+            "mangledName": "$s13DonkeyLockKit12StatusUpdateO10weakSignalyACSi_tcACmF",
+            "moduleName": "DonkeyLockKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "connecting",
+            "printedName": "connecting",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DonkeyLockKit.StatusUpdate.Type) -> DonkeyLockKit.StatusUpdate",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StatusUpdate",
+                    "printedName": "DonkeyLockKit.StatusUpdate",
+                    "usr": "s:13DonkeyLockKit12StatusUpdateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DonkeyLockKit.StatusUpdate.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StatusUpdate",
+                        "printedName": "DonkeyLockKit.StatusUpdate",
+                        "usr": "s:13DonkeyLockKit12StatusUpdateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13DonkeyLockKit12StatusUpdateO10connectingyA2CmF",
+            "mangledName": "$s13DonkeyLockKit12StatusUpdateO10connectingyA2CmF",
+            "moduleName": "DonkeyLockKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "connected",
+            "printedName": "connected",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DonkeyLockKit.StatusUpdate.Type) -> DonkeyLockKit.StatusUpdate",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StatusUpdate",
+                    "printedName": "DonkeyLockKit.StatusUpdate",
+                    "usr": "s:13DonkeyLockKit12StatusUpdateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DonkeyLockKit.StatusUpdate.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StatusUpdate",
+                        "printedName": "DonkeyLockKit.StatusUpdate",
+                        "usr": "s:13DonkeyLockKit12StatusUpdateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13DonkeyLockKit12StatusUpdateO9connectedyA2CmF",
+            "mangledName": "$s13DonkeyLockKit12StatusUpdateO9connectedyA2CmF",
+            "moduleName": "DonkeyLockKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "readingLockData",
+            "printedName": "readingLockData",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DonkeyLockKit.StatusUpdate.Type) -> DonkeyLockKit.StatusUpdate",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StatusUpdate",
+                    "printedName": "DonkeyLockKit.StatusUpdate",
+                    "usr": "s:13DonkeyLockKit12StatusUpdateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DonkeyLockKit.StatusUpdate.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StatusUpdate",
+                        "printedName": "DonkeyLockKit.StatusUpdate",
+                        "usr": "s:13DonkeyLockKit12StatusUpdateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13DonkeyLockKit12StatusUpdateO07readingB4DatayA2CmF",
+            "mangledName": "$s13DonkeyLockKit12StatusUpdateO07readingB4DatayA2CmF",
+            "moduleName": "DonkeyLockKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "postConnectionLockCheck",
+            "printedName": "postConnectionLockCheck",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DonkeyLockKit.StatusUpdate.Type) -> DonkeyLockKit.StatusUpdate",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StatusUpdate",
+                    "printedName": "DonkeyLockKit.StatusUpdate",
+                    "usr": "s:13DonkeyLockKit12StatusUpdateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DonkeyLockKit.StatusUpdate.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StatusUpdate",
+                        "printedName": "DonkeyLockKit.StatusUpdate",
+                        "usr": "s:13DonkeyLockKit12StatusUpdateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13DonkeyLockKit12StatusUpdateO014postConnectionB5CheckyA2CmF",
+            "mangledName": "$s13DonkeyLockKit12StatusUpdateO014postConnectionB5CheckyA2CmF",
+            "moduleName": "DonkeyLockKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sendingCommand",
+            "printedName": "sendingCommand",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DonkeyLockKit.StatusUpdate.Type) -> DonkeyLockKit.StatusUpdate",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StatusUpdate",
+                    "printedName": "DonkeyLockKit.StatusUpdate",
+                    "usr": "s:13DonkeyLockKit12StatusUpdateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DonkeyLockKit.StatusUpdate.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StatusUpdate",
+                        "printedName": "DonkeyLockKit.StatusUpdate",
+                        "usr": "s:13DonkeyLockKit12StatusUpdateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13DonkeyLockKit12StatusUpdateO14sendingCommandyA2CmF",
+            "mangledName": "$s13DonkeyLockKit12StatusUpdateO14sendingCommandyA2CmF",
+            "moduleName": "DonkeyLockKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "waitingForUserAction",
+            "printedName": "waitingForUserAction",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DonkeyLockKit.StatusUpdate.Type) -> DonkeyLockKit.StatusUpdate",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StatusUpdate",
+                    "printedName": "DonkeyLockKit.StatusUpdate",
+                    "usr": "s:13DonkeyLockKit12StatusUpdateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DonkeyLockKit.StatusUpdate.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StatusUpdate",
+                        "printedName": "DonkeyLockKit.StatusUpdate",
+                        "usr": "s:13DonkeyLockKit12StatusUpdateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13DonkeyLockKit12StatusUpdateO20waitingForUserActionyA2CmF",
+            "mangledName": "$s13DonkeyLockKit12StatusUpdateO20waitingForUserActionyA2CmF",
+            "moduleName": "DonkeyLockKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "extraLockCheck",
+            "printedName": "extraLockCheck",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DonkeyLockKit.StatusUpdate.Type) -> DonkeyLockKit.StatusUpdate",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StatusUpdate",
+                    "printedName": "DonkeyLockKit.StatusUpdate",
+                    "usr": "s:13DonkeyLockKit12StatusUpdateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DonkeyLockKit.StatusUpdate.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StatusUpdate",
+                        "printedName": "DonkeyLockKit.StatusUpdate",
+                        "usr": "s:13DonkeyLockKit12StatusUpdateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13DonkeyLockKit12StatusUpdateO05extraB5CheckyA2CmF",
+            "mangledName": "$s13DonkeyLockKit12StatusUpdateO05extraB5CheckyA2CmF",
+            "moduleName": "DonkeyLockKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "StatusUpdate",
+                "printedName": "DonkeyLockKit.StatusUpdate",
+                "usr": "s:13DonkeyLockKit12StatusUpdateO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "StatusUpdate",
+                "printedName": "DonkeyLockKit.StatusUpdate",
+                "usr": "s:13DonkeyLockKit12StatusUpdateO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13DonkeyLockKit12StatusUpdateO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s13DonkeyLockKit12StatusUpdateO2eeoiySbAC_ACtFZ",
+            "moduleName": "DonkeyLockKit",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:13DonkeyLockKit12StatusUpdateO",
+        "mangledName": "$s13DonkeyLockKit12StatusUpdateO",
+        "moduleName": "DonkeyLockKit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "InitializeSDKError",
+        "printedName": "InitializeSDKError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "tokenNotSet",
+            "printedName": "tokenNotSet",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DonkeyLockKit.InitializeSDKError.Type) -> DonkeyLockKit.InitializeSDKError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InitializeSDKError",
+                    "printedName": "DonkeyLockKit.InitializeSDKError",
+                    "usr": "s:13DonkeyLockKit18InitializeSDKErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DonkeyLockKit.InitializeSDKError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InitializeSDKError",
+                        "printedName": "DonkeyLockKit.InitializeSDKError",
+                        "usr": "s:13DonkeyLockKit18InitializeSDKErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13DonkeyLockKit18InitializeSDKErrorO11tokenNotSetyA2CmF",
+            "mangledName": "$s13DonkeyLockKit18InitializeSDKErrorO11tokenNotSetyA2CmF",
+            "moduleName": "DonkeyLockKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "tokenInvalid",
+            "printedName": "tokenInvalid",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DonkeyLockKit.InitializeSDKError.Type) -> DonkeyLockKit.InitializeSDKError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InitializeSDKError",
+                    "printedName": "DonkeyLockKit.InitializeSDKError",
+                    "usr": "s:13DonkeyLockKit18InitializeSDKErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DonkeyLockKit.InitializeSDKError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InitializeSDKError",
+                        "printedName": "DonkeyLockKit.InitializeSDKError",
+                        "usr": "s:13DonkeyLockKit18InitializeSDKErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13DonkeyLockKit18InitializeSDKErrorO12tokenInvalidyA2CmF",
+            "mangledName": "$s13DonkeyLockKit18InitializeSDKErrorO12tokenInvalidyA2CmF",
+            "moduleName": "DonkeyLockKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ongoingInitializationWithDifferentToken",
+            "printedName": "ongoingInitializationWithDifferentToken",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DonkeyLockKit.InitializeSDKError.Type) -> DonkeyLockKit.InitializeSDKError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InitializeSDKError",
+                    "printedName": "DonkeyLockKit.InitializeSDKError",
+                    "usr": "s:13DonkeyLockKit18InitializeSDKErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DonkeyLockKit.InitializeSDKError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InitializeSDKError",
+                        "printedName": "DonkeyLockKit.InitializeSDKError",
+                        "usr": "s:13DonkeyLockKit18InitializeSDKErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13DonkeyLockKit18InitializeSDKErrorO39ongoingInitializationWithDifferentTokenyA2CmF",
+            "mangledName": "$s13DonkeyLockKit18InitializeSDKErrorO39ongoingInitializationWithDifferentTokenyA2CmF",
+            "moduleName": "DonkeyLockKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "failedToInitializeStorage",
+            "printedName": "failedToInitializeStorage",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DonkeyLockKit.InitializeSDKError.Type) -> DonkeyLockKit.InitializeSDKError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InitializeSDKError",
+                    "printedName": "DonkeyLockKit.InitializeSDKError",
+                    "usr": "s:13DonkeyLockKit18InitializeSDKErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DonkeyLockKit.InitializeSDKError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InitializeSDKError",
+                        "printedName": "DonkeyLockKit.InitializeSDKError",
+                        "usr": "s:13DonkeyLockKit18InitializeSDKErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13DonkeyLockKit18InitializeSDKErrorO08failedToD7StorageyA2CmF",
+            "mangledName": "$s13DonkeyLockKit18InitializeSDKErrorO08failedToD7StorageyA2CmF",
+            "moduleName": "DonkeyLockKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DonkeyLockKit.InitializeSDKError?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InitializeSDKError",
+                    "printedName": "DonkeyLockKit.InitializeSDKError",
+                    "usr": "s:13DonkeyLockKit18InitializeSDKErrorO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13DonkeyLockKit18InitializeSDKErrorO8rawValueACSgSS_tcfc",
+            "mangledName": "$s13DonkeyLockKit18InitializeSDKErrorO8rawValueACSgSS_tcfc",
+            "moduleName": "DonkeyLockKit",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13DonkeyLockKit18InitializeSDKErrorO8rawValueSSvp",
+            "mangledName": "$s13DonkeyLockKit18InitializeSDKErrorO8rawValueSSvp",
+            "moduleName": "DonkeyLockKit",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13DonkeyLockKit18InitializeSDKErrorO8rawValueSSvg",
+                "mangledName": "$s13DonkeyLockKit18InitializeSDKErrorO8rawValueSSvg",
+                "moduleName": "DonkeyLockKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:13DonkeyLockKit18InitializeSDKErrorO",
+        "mangledName": "$s13DonkeyLockKit18InitializeSDKErrorO",
+        "moduleName": "DonkeyLockKit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "InitializeLockError",
+        "printedName": "InitializeLockError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "failedToInitializeSDK",
+            "printedName": "failedToInitializeSDK",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DonkeyLockKit.InitializeLockError.Type) -> (DonkeyLockKit.InitializeSDKError) -> DonkeyLockKit.InitializeLockError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DonkeyLockKit.InitializeSDKError) -> DonkeyLockKit.InitializeLockError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InitializeLockError",
+                        "printedName": "DonkeyLockKit.InitializeLockError",
+                        "usr": "s:13DonkeyLockKit010InitializeB5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InitializeSDKError",
+                        "printedName": "DonkeyLockKit.InitializeSDKError",
+                        "usr": "s:13DonkeyLockKit18InitializeSDKErrorO"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DonkeyLockKit.InitializeLockError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InitializeLockError",
+                        "printedName": "DonkeyLockKit.InitializeLockError",
+                        "usr": "s:13DonkeyLockKit010InitializeB5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13DonkeyLockKit010InitializeB5ErrorO08failedToD3SDKyAcA0D8SDKErrorOcACmF",
+            "mangledName": "$s13DonkeyLockKit010InitializeB5ErrorO08failedToD3SDKyAcA0D8SDKErrorOcACmF",
+            "moduleName": "DonkeyLockKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ongoingLockAction",
+            "printedName": "ongoingLockAction",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DonkeyLockKit.InitializeLockError.Type) -> DonkeyLockKit.InitializeLockError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InitializeLockError",
+                    "printedName": "DonkeyLockKit.InitializeLockError",
+                    "usr": "s:13DonkeyLockKit010InitializeB5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DonkeyLockKit.InitializeLockError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InitializeLockError",
+                        "printedName": "DonkeyLockKit.InitializeLockError",
+                        "usr": "s:13DonkeyLockKit010InitializeB5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13DonkeyLockKit010InitializeB5ErrorO07ongoingB6ActionyA2CmF",
+            "mangledName": "$s13DonkeyLockKit010InitializeB5ErrorO07ongoingB6ActionyA2CmF",
+            "moduleName": "DonkeyLockKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "InitializeLockError",
+                "printedName": "DonkeyLockKit.InitializeLockError",
+                "usr": "s:13DonkeyLockKit010InitializeB5ErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "InitializeLockError",
+                "printedName": "DonkeyLockKit.InitializeLockError",
+                "usr": "s:13DonkeyLockKit010InitializeB5ErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13DonkeyLockKit010InitializeB5ErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s13DonkeyLockKit010InitializeB5ErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "DonkeyLockKit",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:13DonkeyLockKit010InitializeB5ErrorO",
+        "mangledName": "$s13DonkeyLockKit010InitializeB5ErrorO",
+        "moduleName": "DonkeyLockKit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FinalizeLockError",
+        "printedName": "FinalizeLockError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "failedToInitializeSDK",
+            "printedName": "failedToInitializeSDK",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DonkeyLockKit.FinalizeLockError.Type) -> (DonkeyLockKit.InitializeSDKError) -> DonkeyLockKit.FinalizeLockError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DonkeyLockKit.InitializeSDKError) -> DonkeyLockKit.FinalizeLockError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FinalizeLockError",
+                        "printedName": "DonkeyLockKit.FinalizeLockError",
+                        "usr": "s:13DonkeyLockKit08FinalizeB5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InitializeSDKError",
+                        "printedName": "DonkeyLockKit.InitializeSDKError",
+                        "usr": "s:13DonkeyLockKit18InitializeSDKErrorO"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DonkeyLockKit.FinalizeLockError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FinalizeLockError",
+                        "printedName": "DonkeyLockKit.FinalizeLockError",
+                        "usr": "s:13DonkeyLockKit08FinalizeB5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13DonkeyLockKit08FinalizeB5ErrorO21failedToInitializeSDKyAcA0H8SDKErrorOcACmF",
+            "mangledName": "$s13DonkeyLockKit08FinalizeB5ErrorO21failedToInitializeSDKyAcA0H8SDKErrorOcACmF",
+            "moduleName": "DonkeyLockKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ongoingLockAction",
+            "printedName": "ongoingLockAction",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DonkeyLockKit.FinalizeLockError.Type) -> DonkeyLockKit.FinalizeLockError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FinalizeLockError",
+                    "printedName": "DonkeyLockKit.FinalizeLockError",
+                    "usr": "s:13DonkeyLockKit08FinalizeB5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DonkeyLockKit.FinalizeLockError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FinalizeLockError",
+                        "printedName": "DonkeyLockKit.FinalizeLockError",
+                        "usr": "s:13DonkeyLockKit08FinalizeB5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13DonkeyLockKit08FinalizeB5ErrorO07ongoingB6ActionyA2CmF",
+            "mangledName": "$s13DonkeyLockKit08FinalizeB5ErrorO07ongoingB6ActionyA2CmF",
+            "moduleName": "DonkeyLockKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "lockNotRecognized",
+            "printedName": "lockNotRecognized",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DonkeyLockKit.FinalizeLockError.Type) -> DonkeyLockKit.FinalizeLockError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FinalizeLockError",
+                    "printedName": "DonkeyLockKit.FinalizeLockError",
+                    "usr": "s:13DonkeyLockKit08FinalizeB5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DonkeyLockKit.FinalizeLockError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FinalizeLockError",
+                        "printedName": "DonkeyLockKit.FinalizeLockError",
+                        "usr": "s:13DonkeyLockKit08FinalizeB5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13DonkeyLockKit08FinalizeB5ErrorO17lockNotRecognizedyA2CmF",
+            "mangledName": "$s13DonkeyLockKit08FinalizeB5ErrorO17lockNotRecognizedyA2CmF",
+            "moduleName": "DonkeyLockKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FinalizeLockError",
+                "printedName": "DonkeyLockKit.FinalizeLockError",
+                "usr": "s:13DonkeyLockKit08FinalizeB5ErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FinalizeLockError",
+                "printedName": "DonkeyLockKit.FinalizeLockError",
+                "usr": "s:13DonkeyLockKit08FinalizeB5ErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13DonkeyLockKit08FinalizeB5ErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s13DonkeyLockKit08FinalizeB5ErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "DonkeyLockKit",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:13DonkeyLockKit08FinalizeB5ErrorO",
+        "mangledName": "$s13DonkeyLockKit08FinalizeB5ErrorO",
+        "moduleName": "DonkeyLockKit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LockError",
+        "printedName": "LockError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "failedToInitializeSDK",
+            "printedName": "failedToInitializeSDK",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DonkeyLockKit.LockError.Type) -> (DonkeyLockKit.InitializeSDKError) -> DonkeyLockKit.LockError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DonkeyLockKit.InitializeSDKError) -> DonkeyLockKit.LockError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LockError",
+                        "printedName": "DonkeyLockKit.LockError",
+                        "usr": "s:13DonkeyLockKit0B5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InitializeSDKError",
+                        "printedName": "DonkeyLockKit.InitializeSDKError",
+                        "usr": "s:13DonkeyLockKit18InitializeSDKErrorO"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DonkeyLockKit.LockError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LockError",
+                        "printedName": "DonkeyLockKit.LockError",
+                        "usr": "s:13DonkeyLockKit0B5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13DonkeyLockKit0B5ErrorO21failedToInitializeSDKyAcA0G8SDKErrorOcACmF",
+            "mangledName": "$s13DonkeyLockKit0B5ErrorO21failedToInitializeSDKyAcA0G8SDKErrorOcACmF",
+            "moduleName": "DonkeyLockKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "lockNotRecognized",
+            "printedName": "lockNotRecognized",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DonkeyLockKit.LockError.Type) -> DonkeyLockKit.LockError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LockError",
+                    "printedName": "DonkeyLockKit.LockError",
+                    "usr": "s:13DonkeyLockKit0B5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DonkeyLockKit.LockError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LockError",
+                        "printedName": "DonkeyLockKit.LockError",
+                        "usr": "s:13DonkeyLockKit0B5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13DonkeyLockKit0B5ErrorO17lockNotRecognizedyA2CmF",
+            "mangledName": "$s13DonkeyLockKit0B5ErrorO17lockNotRecognizedyA2CmF",
+            "moduleName": "DonkeyLockKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ongoingLockAction",
+            "printedName": "ongoingLockAction",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DonkeyLockKit.LockError.Type) -> DonkeyLockKit.LockError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LockError",
+                    "printedName": "DonkeyLockKit.LockError",
+                    "usr": "s:13DonkeyLockKit0B5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DonkeyLockKit.LockError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LockError",
+                        "printedName": "DonkeyLockKit.LockError",
+                        "usr": "s:13DonkeyLockKit0B5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13DonkeyLockKit0B5ErrorO07ongoingB6ActionyA2CmF",
+            "mangledName": "$s13DonkeyLockKit0B5ErrorO07ongoingB6ActionyA2CmF",
+            "moduleName": "DonkeyLockKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "bluetoothOff",
+            "printedName": "bluetoothOff",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DonkeyLockKit.LockError.Type) -> DonkeyLockKit.LockError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LockError",
+                    "printedName": "DonkeyLockKit.LockError",
+                    "usr": "s:13DonkeyLockKit0B5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DonkeyLockKit.LockError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LockError",
+                        "printedName": "DonkeyLockKit.LockError",
+                        "usr": "s:13DonkeyLockKit0B5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13DonkeyLockKit0B5ErrorO12bluetoothOffyA2CmF",
+            "mangledName": "$s13DonkeyLockKit0B5ErrorO12bluetoothOffyA2CmF",
+            "moduleName": "DonkeyLockKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "bluetoothUnauthorized",
+            "printedName": "bluetoothUnauthorized",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DonkeyLockKit.LockError.Type) -> DonkeyLockKit.LockError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LockError",
+                    "printedName": "DonkeyLockKit.LockError",
+                    "usr": "s:13DonkeyLockKit0B5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DonkeyLockKit.LockError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LockError",
+                        "printedName": "DonkeyLockKit.LockError",
+                        "usr": "s:13DonkeyLockKit0B5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13DonkeyLockKit0B5ErrorO21bluetoothUnauthorizedyA2CmF",
+            "mangledName": "$s13DonkeyLockKit0B5ErrorO21bluetoothUnauthorizedyA2CmF",
+            "moduleName": "DonkeyLockKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "searchTimeout",
+            "printedName": "searchTimeout",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DonkeyLockKit.LockError.Type) -> DonkeyLockKit.LockError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LockError",
+                    "printedName": "DonkeyLockKit.LockError",
+                    "usr": "s:13DonkeyLockKit0B5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DonkeyLockKit.LockError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LockError",
+                        "printedName": "DonkeyLockKit.LockError",
+                        "usr": "s:13DonkeyLockKit0B5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13DonkeyLockKit0B5ErrorO13searchTimeoutyA2CmF",
+            "mangledName": "$s13DonkeyLockKit0B5ErrorO13searchTimeoutyA2CmF",
+            "moduleName": "DonkeyLockKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "connectionTimeout",
+            "printedName": "connectionTimeout",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DonkeyLockKit.LockError.Type) -> DonkeyLockKit.LockError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LockError",
+                    "printedName": "DonkeyLockKit.LockError",
+                    "usr": "s:13DonkeyLockKit0B5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DonkeyLockKit.LockError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LockError",
+                        "printedName": "DonkeyLockKit.LockError",
+                        "usr": "s:13DonkeyLockKit0B5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13DonkeyLockKit0B5ErrorO17connectionTimeoutyA2CmF",
+            "mangledName": "$s13DonkeyLockKit0B5ErrorO17connectionTimeoutyA2CmF",
+            "moduleName": "DonkeyLockKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "lockTimeout",
+            "printedName": "lockTimeout",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DonkeyLockKit.LockError.Type) -> DonkeyLockKit.LockError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LockError",
+                    "printedName": "DonkeyLockKit.LockError",
+                    "usr": "s:13DonkeyLockKit0B5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DonkeyLockKit.LockError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LockError",
+                        "printedName": "DonkeyLockKit.LockError",
+                        "usr": "s:13DonkeyLockKit0B5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13DonkeyLockKit0B5ErrorO11lockTimeoutyA2CmF",
+            "mangledName": "$s13DonkeyLockKit0B5ErrorO11lockTimeoutyA2CmF",
+            "moduleName": "DonkeyLockKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "unlockTimeout",
+            "printedName": "unlockTimeout",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DonkeyLockKit.LockError.Type) -> DonkeyLockKit.LockError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LockError",
+                    "printedName": "DonkeyLockKit.LockError",
+                    "usr": "s:13DonkeyLockKit0B5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DonkeyLockKit.LockError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LockError",
+                        "printedName": "DonkeyLockKit.LockError",
+                        "usr": "s:13DonkeyLockKit0B5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13DonkeyLockKit0B5ErrorO13unlockTimeoutyA2CmF",
+            "mangledName": "$s13DonkeyLockKit0B5ErrorO13unlockTimeoutyA2CmF",
+            "moduleName": "DonkeyLockKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "postConnectionLockCheckFailed",
+            "printedName": "postConnectionLockCheckFailed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DonkeyLockKit.LockError.Type) -> DonkeyLockKit.LockError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LockError",
+                    "printedName": "DonkeyLockKit.LockError",
+                    "usr": "s:13DonkeyLockKit0B5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DonkeyLockKit.LockError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LockError",
+                        "printedName": "DonkeyLockKit.LockError",
+                        "usr": "s:13DonkeyLockKit0B5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13DonkeyLockKit0B5ErrorO014postConnectionB11CheckFailedyA2CmF",
+            "mangledName": "$s13DonkeyLockKit0B5ErrorO014postConnectionB11CheckFailedyA2CmF",
+            "moduleName": "DonkeyLockKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "extraLockCheckFailed",
+            "printedName": "extraLockCheckFailed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DonkeyLockKit.LockError.Type) -> DonkeyLockKit.LockError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LockError",
+                    "printedName": "DonkeyLockKit.LockError",
+                    "usr": "s:13DonkeyLockKit0B5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DonkeyLockKit.LockError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LockError",
+                        "printedName": "DonkeyLockKit.LockError",
+                        "usr": "s:13DonkeyLockKit0B5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13DonkeyLockKit0B5ErrorO05extraB11CheckFailedyA2CmF",
+            "mangledName": "$s13DonkeyLockKit0B5ErrorO05extraB11CheckFailedyA2CmF",
+            "moduleName": "DonkeyLockKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "invalidEkey",
+            "printedName": "invalidEkey",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DonkeyLockKit.LockError.Type) -> DonkeyLockKit.LockError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LockError",
+                    "printedName": "DonkeyLockKit.LockError",
+                    "usr": "s:13DonkeyLockKit0B5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DonkeyLockKit.LockError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LockError",
+                        "printedName": "DonkeyLockKit.LockError",
+                        "usr": "s:13DonkeyLockKit0B5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13DonkeyLockKit0B5ErrorO11invalidEkeyyA2CmF",
+            "mangledName": "$s13DonkeyLockKit0B5ErrorO11invalidEkeyyA2CmF",
+            "moduleName": "DonkeyLockKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "outOfCommands",
+            "printedName": "outOfCommands",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DonkeyLockKit.LockError.Type) -> DonkeyLockKit.LockError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LockError",
+                    "printedName": "DonkeyLockKit.LockError",
+                    "usr": "s:13DonkeyLockKit0B5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DonkeyLockKit.LockError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LockError",
+                        "printedName": "DonkeyLockKit.LockError",
+                        "usr": "s:13DonkeyLockKit0B5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13DonkeyLockKit0B5ErrorO13outOfCommandsyA2CmF",
+            "mangledName": "$s13DonkeyLockKit0B5ErrorO13outOfCommandsyA2CmF",
+            "moduleName": "DonkeyLockKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fullTimeout",
+            "printedName": "fullTimeout",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DonkeyLockKit.LockError.Type) -> DonkeyLockKit.LockError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LockError",
+                    "printedName": "DonkeyLockKit.LockError",
+                    "usr": "s:13DonkeyLockKit0B5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DonkeyLockKit.LockError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LockError",
+                        "printedName": "DonkeyLockKit.LockError",
+                        "usr": "s:13DonkeyLockKit0B5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13DonkeyLockKit0B5ErrorO11fullTimeoutyA2CmF",
+            "mangledName": "$s13DonkeyLockKit0B5ErrorO11fullTimeoutyA2CmF",
+            "moduleName": "DonkeyLockKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "offlineDuringPickup",
+            "printedName": "offlineDuringPickup",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DonkeyLockKit.LockError.Type) -> DonkeyLockKit.LockError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LockError",
+                    "printedName": "DonkeyLockKit.LockError",
+                    "usr": "s:13DonkeyLockKit0B5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DonkeyLockKit.LockError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LockError",
+                        "printedName": "DonkeyLockKit.LockError",
+                        "usr": "s:13DonkeyLockKit0B5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13DonkeyLockKit0B5ErrorO19offlineDuringPickupyA2CmF",
+            "mangledName": "$s13DonkeyLockKit0B5ErrorO19offlineDuringPickupyA2CmF",
+            "moduleName": "DonkeyLockKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "unknown",
+            "printedName": "unknown",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DonkeyLockKit.LockError.Type) -> (Swift.String) -> DonkeyLockKit.LockError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> DonkeyLockKit.LockError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LockError",
+                        "printedName": "DonkeyLockKit.LockError",
+                        "usr": "s:13DonkeyLockKit0B5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(message: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DonkeyLockKit.LockError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LockError",
+                        "printedName": "DonkeyLockKit.LockError",
+                        "usr": "s:13DonkeyLockKit0B5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13DonkeyLockKit0B5ErrorO7unknownyACSS_tcACmF",
+            "mangledName": "$s13DonkeyLockKit0B5ErrorO7unknownyACSS_tcACmF",
+            "moduleName": "DonkeyLockKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LockError",
+                "printedName": "DonkeyLockKit.LockError",
+                "usr": "s:13DonkeyLockKit0B5ErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LockError",
+                "printedName": "DonkeyLockKit.LockError",
+                "usr": "s:13DonkeyLockKit0B5ErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13DonkeyLockKit0B5ErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s13DonkeyLockKit0B5ErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "DonkeyLockKit",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:13DonkeyLockKit0B5ErrorO",
+        "mangledName": "$s13DonkeyLockKit0B5ErrorO",
+        "moduleName": "DonkeyLockKit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DonkeyLockKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LockKitConfiguration",
+        "printedName": "LockKitConfiguration",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(logLevel:environment:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LockKitConfiguration",
+                "printedName": "DonkeyLockKit.LockKitConfiguration",
+                "usr": "s:13DonkeyLockKit0bC13ConfigurationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LogLevel",
+                "printedName": "DonkeyLockKit.LogLevel",
+                "usr": "s:13DonkeyLockKit8LogLevelO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ServerEnvironment",
+                "printedName": "DonkeyLockKit.ServerEnvironment",
+                "usr": "s:13DonkeyLockKit17ServerEnvironmentO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13DonkeyLockKit0bC13ConfigurationV8logLevel11environmentAcA03LogF0O_AA17ServerEnvironmentOtcfc",
+            "mangledName": "$s13DonkeyLockKit0bC13ConfigurationV8logLevel11environmentAcA03LogF0O_AA17ServerEnvironmentOtcfc",
+            "moduleName": "DonkeyLockKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "default",
+            "printedName": "default",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LockKitConfiguration",
+                "printedName": "DonkeyLockKit.LockKitConfiguration",
+                "usr": "s:13DonkeyLockKit0bC13ConfigurationV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13DonkeyLockKit0bC13ConfigurationV7defaultACvpZ",
+            "mangledName": "$s13DonkeyLockKit0bC13ConfigurationV7defaultACvpZ",
+            "moduleName": "DonkeyLockKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LockKitConfiguration",
+                    "printedName": "DonkeyLockKit.LockKitConfiguration",
+                    "usr": "s:13DonkeyLockKit0bC13ConfigurationV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13DonkeyLockKit0bC13ConfigurationV7defaultACvgZ",
+                "mangledName": "$s13DonkeyLockKit0bC13ConfigurationV7defaultACvgZ",
+                "moduleName": "DonkeyLockKit",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "logLevel",
+            "printedName": "logLevel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LogLevel",
+                "printedName": "DonkeyLockKit.LogLevel",
+                "usr": "s:13DonkeyLockKit8LogLevelO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13DonkeyLockKit0bC13ConfigurationV8logLevelAA03LogF0Ovp",
+            "mangledName": "$s13DonkeyLockKit0bC13ConfigurationV8logLevelAA03LogF0Ovp",
+            "moduleName": "DonkeyLockKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "DonkeyLockKit.LogLevel",
+                    "usr": "s:13DonkeyLockKit8LogLevelO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13DonkeyLockKit0bC13ConfigurationV8logLevelAA03LogF0Ovg",
+                "mangledName": "$s13DonkeyLockKit0bC13ConfigurationV8logLevelAA03LogF0Ovg",
+                "moduleName": "DonkeyLockKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "environment",
+            "printedName": "environment",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ServerEnvironment",
+                "printedName": "DonkeyLockKit.ServerEnvironment",
+                "usr": "s:13DonkeyLockKit17ServerEnvironmentO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13DonkeyLockKit0bC13ConfigurationV11environmentAA17ServerEnvironmentOvp",
+            "mangledName": "$s13DonkeyLockKit0bC13ConfigurationV11environmentAA17ServerEnvironmentOvp",
+            "moduleName": "DonkeyLockKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ServerEnvironment",
+                    "printedName": "DonkeyLockKit.ServerEnvironment",
+                    "usr": "s:13DonkeyLockKit17ServerEnvironmentO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13DonkeyLockKit0bC13ConfigurationV11environmentAA17ServerEnvironmentOvg",
+                "mangledName": "$s13DonkeyLockKit0bC13ConfigurationV11environmentAA17ServerEnvironmentOvg",
+                "moduleName": "DonkeyLockKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13DonkeyLockKit0bC13ConfigurationV",
+        "mangledName": "$s13DonkeyLockKit0bC13ConfigurationV",
+        "moduleName": "DonkeyLockKit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "DonkeyLockKitCore",
+        "printedName": "DonkeyLockKitCore",
+        "declKind": "Import",
+        "moduleName": "DonkeyLockKit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DonkeyLockKit"
+      },
+      {
+        "kind": "Import",
+        "name": "ComposableArchitecture",
+        "printedName": "ComposableArchitecture",
+        "declKind": "Import",
+        "moduleName": "DonkeyLockKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DonkeyLockKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ComposableArchitecture",
+        "printedName": "ComposableArchitecture",
+        "declKind": "Import",
+        "moduleName": "DonkeyLockKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "DonkeyLockKitCore",
+        "printedName": "DonkeyLockKitCore",
+        "declKind": "Import",
+        "moduleName": "DonkeyLockKit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DonkeyLockKit"
+      },
+      {
+        "kind": "Import",
+        "name": "os",
+        "printedName": "os",
+        "declKind": "Import",
+        "moduleName": "DonkeyLockKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LogLevel",
+        "printedName": "LogLevel",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "debug",
+            "printedName": "debug",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DonkeyLockKit.LogLevel.Type) -> DonkeyLockKit.LogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "DonkeyLockKit.LogLevel",
+                    "usr": "s:13DonkeyLockKit8LogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DonkeyLockKit.LogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogLevel",
+                        "printedName": "DonkeyLockKit.LogLevel",
+                        "usr": "s:13DonkeyLockKit8LogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13DonkeyLockKit8LogLevelO5debugyA2CmF",
+            "mangledName": "$s13DonkeyLockKit8LogLevelO5debugyA2CmF",
+            "moduleName": "DonkeyLockKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "info",
+            "printedName": "info",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DonkeyLockKit.LogLevel.Type) -> DonkeyLockKit.LogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "DonkeyLockKit.LogLevel",
+                    "usr": "s:13DonkeyLockKit8LogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DonkeyLockKit.LogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogLevel",
+                        "printedName": "DonkeyLockKit.LogLevel",
+                        "usr": "s:13DonkeyLockKit8LogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13DonkeyLockKit8LogLevelO4infoyA2CmF",
+            "mangledName": "$s13DonkeyLockKit8LogLevelO4infoyA2CmF",
+            "moduleName": "DonkeyLockKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "error",
+            "printedName": "error",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DonkeyLockKit.LogLevel.Type) -> DonkeyLockKit.LogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "DonkeyLockKit.LogLevel",
+                    "usr": "s:13DonkeyLockKit8LogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DonkeyLockKit.LogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogLevel",
+                        "printedName": "DonkeyLockKit.LogLevel",
+                        "usr": "s:13DonkeyLockKit8LogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13DonkeyLockKit8LogLevelO5erroryA2CmF",
+            "mangledName": "$s13DonkeyLockKit8LogLevelO5erroryA2CmF",
+            "moduleName": "DonkeyLockKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "off",
+            "printedName": "off",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DonkeyLockKit.LogLevel.Type) -> DonkeyLockKit.LogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "DonkeyLockKit.LogLevel",
+                    "usr": "s:13DonkeyLockKit8LogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DonkeyLockKit.LogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogLevel",
+                        "printedName": "DonkeyLockKit.LogLevel",
+                        "usr": "s:13DonkeyLockKit8LogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13DonkeyLockKit8LogLevelO3offyA2CmF",
+            "mangledName": "$s13DonkeyLockKit8LogLevelO3offyA2CmF",
+            "moduleName": "DonkeyLockKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LogLevel",
+                "printedName": "DonkeyLockKit.LogLevel",
+                "usr": "s:13DonkeyLockKit8LogLevelO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LogLevel",
+                "printedName": "DonkeyLockKit.LogLevel",
+                "usr": "s:13DonkeyLockKit8LogLevelO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13DonkeyLockKit8LogLevelO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s13DonkeyLockKit8LogLevelO2eeoiySbAC_ACtFZ",
+            "moduleName": "DonkeyLockKit",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13DonkeyLockKit8LogLevelO9hashValueSivp",
+            "mangledName": "$s13DonkeyLockKit8LogLevelO9hashValueSivp",
+            "moduleName": "DonkeyLockKit",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13DonkeyLockKit8LogLevelO9hashValueSivg",
+                "mangledName": "$s13DonkeyLockKit8LogLevelO9hashValueSivg",
+                "moduleName": "DonkeyLockKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13DonkeyLockKit8LogLevelO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s13DonkeyLockKit8LogLevelO4hash4intoys6HasherVz_tF",
+            "moduleName": "DonkeyLockKit",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "<",
+            "printedName": "<(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LogLevel",
+                "printedName": "DonkeyLockKit.LogLevel",
+                "usr": "s:13DonkeyLockKit8LogLevelO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LogLevel",
+                "printedName": "DonkeyLockKit.LogLevel",
+                "usr": "s:13DonkeyLockKit8LogLevelO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13DonkeyLockKit8LogLevelO1loiySbAC_ACtFZ",
+            "mangledName": "$s13DonkeyLockKit8LogLevelO1loiySbAC_ACtFZ",
+            "moduleName": "DonkeyLockKit",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:13DonkeyLockKit8LogLevelO",
+        "mangledName": "$s13DonkeyLockKit8LogLevelO",
+        "moduleName": "DonkeyLockKit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Comparable",
+            "printedName": "Comparable",
+            "usr": "s:SL",
+            "mangledName": "$sSL"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DonkeyLockKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "os",
+        "printedName": "os",
+        "declKind": "Import",
+        "moduleName": "DonkeyLockKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DonkeyLockKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SystemConfiguration",
+        "printedName": "SystemConfiguration",
+        "declKind": "Import",
+        "moduleName": "DonkeyLockKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DonkeyLockKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DonkeyLockKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ServerEnvironment",
+        "printedName": "ServerEnvironment",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "live",
+            "printedName": "live",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DonkeyLockKit.ServerEnvironment.Type) -> DonkeyLockKit.ServerEnvironment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ServerEnvironment",
+                    "printedName": "DonkeyLockKit.ServerEnvironment",
+                    "usr": "s:13DonkeyLockKit17ServerEnvironmentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DonkeyLockKit.ServerEnvironment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ServerEnvironment",
+                        "printedName": "DonkeyLockKit.ServerEnvironment",
+                        "usr": "s:13DonkeyLockKit17ServerEnvironmentO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13DonkeyLockKit17ServerEnvironmentO4liveyA2CmF",
+            "mangledName": "$s13DonkeyLockKit17ServerEnvironmentO4liveyA2CmF",
+            "moduleName": "DonkeyLockKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "test",
+            "printedName": "test",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DonkeyLockKit.ServerEnvironment.Type) -> DonkeyLockKit.ServerEnvironment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ServerEnvironment",
+                    "printedName": "DonkeyLockKit.ServerEnvironment",
+                    "usr": "s:13DonkeyLockKit17ServerEnvironmentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DonkeyLockKit.ServerEnvironment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ServerEnvironment",
+                        "printedName": "DonkeyLockKit.ServerEnvironment",
+                        "usr": "s:13DonkeyLockKit17ServerEnvironmentO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13DonkeyLockKit17ServerEnvironmentO4testyA2CmF",
+            "mangledName": "$s13DonkeyLockKit17ServerEnvironmentO4testyA2CmF",
+            "moduleName": "DonkeyLockKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13DonkeyLockKit17ServerEnvironmentO9hashValueSivp",
+            "mangledName": "$s13DonkeyLockKit17ServerEnvironmentO9hashValueSivp",
+            "moduleName": "DonkeyLockKit",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13DonkeyLockKit17ServerEnvironmentO9hashValueSivg",
+                "mangledName": "$s13DonkeyLockKit17ServerEnvironmentO9hashValueSivg",
+                "moduleName": "DonkeyLockKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13DonkeyLockKit17ServerEnvironmentO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s13DonkeyLockKit17ServerEnvironmentO4hash4intoys6HasherVz_tF",
+            "moduleName": "DonkeyLockKit",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ServerEnvironment",
+                "printedName": "DonkeyLockKit.ServerEnvironment",
+                "usr": "s:13DonkeyLockKit17ServerEnvironmentO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ServerEnvironment",
+                "printedName": "DonkeyLockKit.ServerEnvironment",
+                "usr": "s:13DonkeyLockKit17ServerEnvironmentO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13DonkeyLockKit17ServerEnvironmentO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s13DonkeyLockKit17ServerEnvironmentO2eeoiySbAC_ACtFZ",
+            "moduleName": "DonkeyLockKit",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:13DonkeyLockKit17ServerEnvironmentO",
+        "mangledName": "$s13DonkeyLockKit17ServerEnvironmentO",
+        "moduleName": "DonkeyLockKit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DonkeyLockKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/vagrant\/git\/Sources\/DonkeyLockKit\/Internal\/Authorization.swift",
+      "kind": "Dictionary",
+      "offset": 736,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Sources\/DonkeyLockKit\/Internal\/Environment.swift",
+      "kind": "StringLiteral",
+      "offset": 274,
+      "length": 7,
+      "value": "\"1.1.0\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Sources\/DonkeyLockKit\/Internal\/Environment.swift",
+      "kind": "IntegerLiteral",
+      "offset": 321,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Sources\/DonkeyLockKit\/Internal\/Environment.swift",
+      "kind": "StringLiteral",
+      "offset": 361,
+      "length": 28,
+      "value": "\"com.DonkeyRepublic.LockKit\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Sources\/DonkeyLockKit\/Internal\/Environment.swift",
+      "kind": "IntegerLiteral",
+      "offset": 451,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Sources\/DonkeyLockKit\/Internal\/Environment.swift",
+      "kind": "IntegerLiteral",
+      "offset": 455,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Sources\/DonkeyLockKit\/Internal\/Environment.swift",
+      "kind": "IntegerLiteral",
+      "offset": 460,
+      "length": 4,
+      "value": "3600"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Sources\/DonkeyLockKit\/Internal\/Environment.swift",
+      "kind": "StringLiteral",
+      "offset": 564,
+      "length": 15,
+      "value": "\"DonkeyLockKit\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Sources\/DonkeyLockKit\/Internal\/Environment.swift",
+      "kind": "StringLiteral",
+      "offset": 661,
+      "length": 48,
+      "value": "\"com.DonkeyRepublic.LockKit.storage-initialized\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Sources\/DonkeyLockKit\/Internal\/Environment.swift",
+      "kind": "StringLiteral",
+      "offset": 753,
+      "length": 22,
+      "value": "\"defaultSchemaVersion\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Sources\/DonkeyLockKit\/Internal\/Environment.swift",
+      "kind": "StringLiteral",
+      "offset": 820,
+      "length": 24,
+      "value": "\"sdkAuthorizationStatus\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Sources\/DonkeyLockKit\/Internal\/LockAction.swift",
+      "kind": "StringLiteral",
+      "offset": 1601,
+      "length": 12,
+      "value": "\"end_rental\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Sources\/DonkeyLockKit\/Internal\/LockAction.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1721,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Sources\/DonkeyLockKit\/Internal\/LockKitStore.swift",
+      "kind": "Dictionary",
+      "offset": 437,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Sources\/DonkeyLockKit\/Internal\/LockKitStore.swift",
+      "kind": "BooleanLiteral",
+      "offset": 539,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Sources\/DonkeyLockKit\/Internal\/LockKitStore.swift",
+      "kind": "BooleanLiteral",
+      "offset": 585,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Sources\/DonkeyLockKit\/Internal\/MigrationAssistant.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3444,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Sources\/DonkeyLockKit\/Internal\/Reachability.swift",
+      "kind": "StringLiteral",
+      "offset": 1632,
+      "length": 33,
+      "value": "\"ReachabilityChangedNotification\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Sources\/DonkeyLockKit\/Internal\/Reachability.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3254,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Sources\/DonkeyLockKit\/Internal\/Reachability.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3325,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Sources\/DonkeyLockKit\/Internal\/Reachability.swift",
+      "kind": "StringLiteral",
+      "offset": 3463,
+      "length": 32,
+      "value": "\"uk.co.ashleymills.reachability\""
+    }
+  ]
+}

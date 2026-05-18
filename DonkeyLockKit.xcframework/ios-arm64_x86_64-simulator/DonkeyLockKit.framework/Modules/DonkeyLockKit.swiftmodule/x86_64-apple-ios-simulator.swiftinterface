@@ -1,63 +1,40 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)
-// swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name DonkeyLockKit
-import CoreBluetooth
-import CoreBluetooth/*.CBCharacteristicWriteType*/
-import CoreBluetooth/*.CBManagerState*/
-import CoreBluetooth/*.CBUUID*/
+// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name DonkeyLockKit
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
+import Combine
 import CoreLocation
-import CoreLocation/*.CLLocation*/
-import Darwin
-import Dispatch
-@_exported import DonkeyLockKit
 import Foundation
-import Foundation/*.memcmp*/
 import Swift
 import SystemConfiguration
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
 import os
-prefix operator /
-precedencegroup CasePathCompositionPrecedence {
-  associativity: right
-}
-infix operator .. : CasePathCompositionPrecedence
-public enum LogLevel : Swift.Comparable {
-  case debug
-  case info
-  case error
-  case off
-  public static func == (a: DonkeyLockKit.LogLevel, b: DonkeyLockKit.LogLevel) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public static func < (a: DonkeyLockKit.LogLevel, b: DonkeyLockKit.LogLevel) -> Swift.Bool
-  public var hashValue: Swift.Int {
-    get
-  }
-}
-extension NSRecursiveLock {
-  @discardableResult
-  @inlinable internal func sync<R>(work: () -> R) -> R {
-    self.lock()
-    defer { self.unlock() }
-    return work()
-  }
-}
-public struct LockKitConfiguration {
-  public init(logLevel: DonkeyLockKit.LogLevel, environment: DonkeyLockKit.ServerEnvironment)
-  public static let `default`: DonkeyLockKit.LockKitConfiguration
-  public let logLevel: DonkeyLockKit.LogLevel
-  public let environment: DonkeyLockKit.ServerEnvironment
-}
 public typealias LockName = Swift.String
 @_hasMissingDesignatedInitializers public class LockKit {
   public static let shared: DonkeyLockKit.LockKit
   public func configure(_ configuration: DonkeyLockKit.LockKitConfiguration)
   public func set(logLevel: DonkeyLockKit.LogLevel)
   public func set(serverEnvironment: DonkeyLockKit.ServerEnvironment)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func initializeSDK(sdkToken: Swift.String, onResult: @escaping (Swift.Result<Swift.Void, DonkeyLockKit.InitializeSDKError>) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func initializeLock(lockName: DonkeyLockKit.LockName, eKey: Swift.String, passkey: Swift.String) -> Swift.Result<Swift.Void, DonkeyLockKit.InitializeLockError>
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func unlock(lockName: DonkeyLockKit.LockName, onStatusChanged: @escaping (DonkeyLockKit.StatusUpdate) -> Swift.Void, onResult: @escaping (Swift.Result<Swift.Void, DonkeyLockKit.LockError>) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func lock(lockName: DonkeyLockKit.LockName, onStatusChanged: @escaping (DonkeyLockKit.StatusUpdate) -> Swift.Void, onResult: @escaping (Swift.Result<Swift.Void, DonkeyLockKit.LockError>) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func prepareEndRental(lockName: DonkeyLockKit.LockName, onStatusChanged: @escaping (DonkeyLockKit.StatusUpdate) -> Swift.Void, onResult: @escaping (Swift.Result<Swift.Void, DonkeyLockKit.LockError>) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func finalizeLock(lockName: DonkeyLockKit.LockName) -> Swift.Result<Swift.Void, DonkeyLockKit.FinalizeLockError>
+  #endif
   @objc deinit
 }
 public enum StatusUpdate : Swift.Equatable {
@@ -77,7 +54,9 @@ public enum InitializeSDKError : Swift.String, Swift.Error, Swift.Equatable {
   case tokenInvalid
   case ongoingInitializationWithDifferentToken
   case failedToInitializeStorage
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -113,19 +92,34 @@ public enum LockError : Swift.Error, Swift.Equatable {
   case unknown(message: Swift.String)
   public static func == (a: DonkeyLockKit.LockError, b: DonkeyLockKit.LockError) -> Swift.Bool
 }
-public struct CasePath<Root, Value> {
+public struct LockKitConfiguration {
+  public init(logLevel: DonkeyLockKit.LogLevel, environment: DonkeyLockKit.ServerEnvironment)
+  public static let `default`: DonkeyLockKit.LockKitConfiguration
+  public let logLevel: DonkeyLockKit.LogLevel
+  public let environment: DonkeyLockKit.ServerEnvironment
 }
-public func _unimplemented(_ function: Swift.StaticString, file: Swift.StaticString = #file, line: Swift.UInt = #line) -> Swift.Never
-public enum ServerEnvironment : Swift.Equatable {
-  case live
-  case test
+public enum LogLevel : Swift.Comparable {
+  case debug
+  case info
+  case error
+  case off
+  public static func < (a: DonkeyLockKit.LogLevel, b: DonkeyLockKit.LogLevel) -> Swift.Bool
+  public static func == (a: DonkeyLockKit.LogLevel, b: DonkeyLockKit.LogLevel) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
-  public static func == (a: DonkeyLockKit.ServerEnvironment, b: DonkeyLockKit.ServerEnvironment) -> Swift.Bool
   public var hashValue: Swift.Int {
     get
   }
 }
-extension DonkeyLockKit.LogLevel : Swift.Hashable {}
+public enum ServerEnvironment : Swift.Equatable {
+  case live
+  case test
+  public static func == (a: DonkeyLockKit.ServerEnvironment, b: DonkeyLockKit.ServerEnvironment) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 extension DonkeyLockKit.InitializeSDKError : Swift.Hashable {}
 extension DonkeyLockKit.InitializeSDKError : Swift.RawRepresentable {}
+extension DonkeyLockKit.LogLevel : Swift.Hashable {}
 extension DonkeyLockKit.ServerEnvironment : Swift.Hashable {}

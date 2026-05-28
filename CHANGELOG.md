@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.4.1 - 2026-05-28
+
+* CocoaPods: `pod 'DonkeyLockKit'` now installs a prebuilt xcframework
+  instead of source files. There are no transitive pod dependencies; the
+  consumer Podfile line is unchanged.
+
 ## v1.4.0 - 2026-05-18
 
 * Added support for Linka locks

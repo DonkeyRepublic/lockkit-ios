@@ -18,9 +18,9 @@ to obtain the API token.
 
 ### System requirements
 
-* Xcode 12.0 or greater is required to use binaries in XCFramework format.
-* The deployment target of Donkey Lock Kit is iOS 11.0.
-* The Donkey Lock Kit has been tested with Swift 5.3.
+* Xcode 15.0 or greater.
+* The deployment target of Donkey Lock Kit is iOS 13.0.
+* The Donkey Lock Kit has been built with Swift 5.9.
 
 
 ## Installation

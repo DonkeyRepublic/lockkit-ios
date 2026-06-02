@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.4.2 - 2026-06-02
+
+* Fix a crash (`EXC_BAD_ACCESS` during `initializeSDK`) caused by
+  ComposableArchitecture and swift-dependencies being embedded twice in the
+  `DonkeyLockKit.xcframework` binary. The duplicated ObjC classes registered
+  at two addresses, so an internal cast could hit the wrong copy. The
+  framework now embeds each dependency exactly once.
+
 ## v1.4.1 - 2026-05-28
 
 * CocoaPods: `pod 'DonkeyLockKit'` now installs a prebuilt xcframework

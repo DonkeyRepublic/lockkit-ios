@@ -22,6 +22,17 @@ to obtain the API token.
 * The deployment target of Donkey Lock Kit is iOS 13.0.
 * The Donkey Lock Kit has been built with Swift 5.9.
 
+### Info.plist configuration
+
+Donkey Lock Kit communicates with bike locks over Bluetooth, also while the
+app is in the background. Make sure to enable the Bluetooth background mode by
+adding the following entry to your app's `Info.plist`:
+
+    <key>UIBackgroundModes</key>
+    <array>
+        <string>bluetooth-central</string>
+    </array>
+
 
 ## Installation
 

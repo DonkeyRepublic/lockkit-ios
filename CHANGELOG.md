@@ -1,5 +1,15 @@
 # Changelog
 
+## v1.4.3 - 2026-06-03
+
+* Fixed `unlock(...)`, `lock(...)` and `prepareEndRental(...)` not invoking
+  their `onResult` handler when an operation completed.
+* Linka locks: `unlock`/`lock`/`prepareEndRental` and `finalizeLock` now
+  resolve the lock correctly. Previously a lock-name/lock-id mismatch could
+  make a Linka lock be reported as unrecognized.
+* Linka locks: failed operations now report the failure to `onResult` instead
+  of never completing, and successful operations complete immediately.
+
 ## v1.4.2 - 2026-06-02
 
 * Fix a crash (`EXC_BAD_ACCESS` during `initializeSDK`) caused by

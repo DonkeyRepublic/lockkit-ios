@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name             = 'DonkeyLockKit'
-  spec.version          = '1.4.2'
+  spec.version          = '1.4.3'
   spec.summary          = 'Donkey Republic BLE lock SDK for iOS.'
   spec.description      = <<~DESC
     DonkeyLockKit lets iOS apps interact with the BLE-enabled locks fitted on

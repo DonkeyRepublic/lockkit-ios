@@ -1,5 +1,15 @@
 # Changelog
 
+## v1.4.4 - 2026-06-08
+
+* Fixed `initializeSDK(...)`, `initializeLock(...)`, `finalizeLock(...)` and the
+  lock actions (`unlock`/`lock`/`prepareEndRental`) not delivering their result
+  or error to `onResult` when the result was set and cleared synchronously in
+  the same step (e.g. an SDK-not-initialized, unrecognized-lock or
+  ongoing-lock-action error). The clear is now deferred to a separate state
+  transaction so the result is published before it is cleared. This extends the
+  v1.4.3 fix to the remaining immediate-clear paths.
+
 ## v1.4.3 - 2026-06-03
 
 * Fixed `unlock(...)`, `lock(...)` and `prepareEndRental(...)` not invoking
